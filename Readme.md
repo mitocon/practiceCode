@@ -15,7 +15,7 @@ ChatGPTにコードを渡し、レビューしてもらった。
   ```php
   $ans = impload("-", $result_arr);
   ```
-- 変更する可能性がある数字をconstで定義することで、将来の変更を容易にした [recursion/49.php](https://github.com/mitocon/practiceCode/blob/main/recursion/49.php)
+- 変更する可能性がある数字をconstで定義することで、将来の変更を容易にした
   
   変更前 [recursion/49.php](https://github.com/mitocon/practiceCode/blob/main/recursion/49.php)  
   ```php
