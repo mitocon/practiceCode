@@ -1,8 +1,8 @@
 <?php
 // 1 最長年数をconstで定義することで、変更を容易にした
 // 2 親functionの中の$yearは不要だった
-// 3 変更前 $goalMoney *= ($year % 2 === 0) ? 1.02 : 1.03;
-//   変更後 $year % 2 === 0 ? $goalMoney *= 1.02 : $goalMoney *= 1.03;
+// 3 変更前 $year % 2 === 0 ? $goalMoney *= 1.02 : $goalMoney *= 1.03;
+//   変更後 $goalMoney *= ($year % 2 === 0) ? 1.02 : 1.03;
 //   条件式が前にある方が可読性があるかも？
 
 const MAX_YEAR = 80;
