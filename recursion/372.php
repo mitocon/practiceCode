@@ -1,5 +1,5 @@
 <?php
-// ver.1 再帰関数オンリー
+// 再帰関数のみで記述してみる
 function multipleOfTwoTotal(int $n): int{
     if($n === 0){
         return 0;
