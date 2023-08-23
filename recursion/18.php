@@ -1,24 +1,21 @@
 <?php
 
 function leetify(string $stringInput): string{
-    
-    $result = str_replace('a', '4', $stringInput);
-    $result = str_replace('A', '4', $result);
-    $result = str_replace('b', '8', $result);
-    $result = str_replace('B', '8', $result);
-    $result = str_replace('e', '3', $result);
-    $result = str_replace('E', '3', $result);
-    $result = str_replace('l', '1', $result);
-    $result = str_replace('L', '1', $result);
-    $result = str_replace('o', '0', $result);
-    $result = str_replace('O', '0', $result);
-    $result = str_replace('s', '5', $result);
-    $result = str_replace('S', '5', $result);
-    $result = str_replace('t', '7', $result);
-    $result = str_replace('T', '7', $result);
-    $result = str_replace('z', '2', $result);
-    $result = str_replace('Z', '2', $result);
 
-    return $result; 
+    $replaceMap = [
+        'a' => '4',
+        'b' => '8',
+        'e' => '3',
+        'l' => '1',
+        'o' => '0',
+        's' => '5',
+        't' => '7',
+        'z' => '2',
+    ];
+
+    // str_ireplaceは大文字小文字を区別しない
+    $result = str_ireplace(array_keys($replaceMap), array_values($replaceMap), $stringInput);
+
+    return $result;
 }
 
