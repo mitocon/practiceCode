@@ -1,6 +1,6 @@
 <?php
 
-  fscanf(STDIN,'%s',$s);
-  $arr = ['a', 'i', 'u', 'e', 'o'];
+fscanf(STDIN,'%s',$s);
+$arr = ['a', 'i', 'u', 'e', 'o'];
   
-  echo str_replace($arr, "", $s);
+echo str_replace($arr, "", $s);
