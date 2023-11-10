@@ -2,7 +2,9 @@
 
 fscanf(STDIN, "%d %d %d", $N, $P, $Q);
 fscanf(STDIN, "%s %s", $A, $B);
-$dishes = explode(' ', trim(fgets(STDIN)));
+
+$array = explode(' ', trim(fgets(STDIN)));
+// [1, 2, 3, 4, 5]
 
 $arr = [];
 for ($i = 0; $i < $n; $i++) {
