@@ -1,3 +1,6 @@
+# Purpose of this repository
+Practicing of fundamental PHP syntax for use in work
+
 # PHPコードの改善点
 ChatGPTにコードを渡し、レビューしてもらった。  
 以下にレビューを受けたポイントをまとめている。  
