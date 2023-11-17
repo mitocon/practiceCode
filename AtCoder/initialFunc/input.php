@@ -3,6 +3,8 @@
 fscanf(STDIN, "%d %d %d", $N, $P, $Q);
 fscanf(STDIN, "%s %s", $A, $B);
 
+fgets(STDIN); // 使用しない場合
+
 $array = explode(' ', trim(fgets(STDIN)));
 // [1, 2, 3, 4, 5]
 
